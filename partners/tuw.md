@@ -19,6 +19,5 @@ _This page is maintained by the beneficiary. Researchers: feel free to update yo
 Computational sustainability, energy-efficient resource allocation, and cloud-continuum systems.
 
 - **Prof. Ivona Brandić** ([ORCID](https://orcid.org/0000-0001-7424-0208)) — Full Professor for High-Performance Computing Systems; leads the research unit for Computational Sustainability; FWF START prize laureate. Supervises DC4; co-supervises DC2 and DC11.
-- **Daniel Hofstätter** ([ORCID](https://orcid.org/0009-0006-0204-2361)) — Researcher in the High-Performance Computing group.
 
 [← All partners](/partners/) · [Open positions](/positions/)
