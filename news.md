@@ -3,10 +3,10 @@ title: "News"
 permalink: /news/
 ---
 
-## Positions opening in autumn 2026
-*Autumn 2026*
+## 15 PhD positions now open
+*Open now*
 
-AEGIS will open 15 fully funded PhD positions (Doctoral Candidates) across Europe. Applications are reviewed as they arrive. See the [open positions](/positions/) and [how to apply](/how-to-apply/).
+AEGIS is recruiting 15 fully funded PhD positions (Doctoral Candidates) across Europe. Applications are open now and reviewed as they arrive. See the [open positions](/positions/) and [how to apply](/how-to-apply/).
 
 ## The project starts
 *1 October 2026*

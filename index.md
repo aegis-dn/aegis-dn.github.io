@@ -7,7 +7,7 @@ permalink: /
 
 <div class="cta-box" markdown="1">
 **We are recruiting 15 Doctoral Candidates (PhD positions) across Europe.**
-Applications open in autumn 2026; start dates run from February to September 2027.
+Applications are open now; start dates run from February to September 2027.
 [See the open positions →](/positions/){: .cta-link}
 </div>
 

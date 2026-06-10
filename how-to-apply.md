@@ -26,7 +26,7 @@ First check that you meet the [eligibility rules](/job-requirements/).
 2. **Interview** — an online interview, which may include a short discussion of your own work.
 3. **Offer** — made by the host institution.
 
-Applications are reviewed as they arrive, from autumn 2026. Start dates run from February to September 2027.
+Applications are open now and reviewed as they arrive. Start dates run from February to September 2027.
 
 ## Equal opportunities
 
