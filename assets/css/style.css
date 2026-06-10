@@ -21,7 +21,7 @@ body {
 }
 
 .site-header .logo img {
-  max-height: 70px;
+  max-height: 50px;
   width: auto;
 }
 
@@ -103,7 +103,7 @@ th { background: #f4f4f4; }
 .status-soon { background: #eee; color: #555; }
 .status-filled { background: #f0e3e3; color: #8a3232; }
 
-/* Beneficiary logo grid */
+/* Beneficiary logo grid (legacy) */
 .logo-grid {
   display: flex;
   flex-wrap: wrap;
@@ -113,6 +113,17 @@ th { background: #f4f4f4; }
 }
 .logo-grid a { display: inline-flex; align-items: center; }
 .logo-grid img { height: 48px; width: auto; }
+
+/* Beneficiary logos inside the partners table */
+.ben-logo { max-height: 38px; max-width: 110px; width: auto; display: block; }
+
+/* Figure caption */
+.figure-caption {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+  margin: 0.3rem 0 1.5rem;
+}
 
 /* Footer / EU funding statement */
 .site-footer {

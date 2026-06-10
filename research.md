@@ -5,6 +5,11 @@ permalink: /research/
 
 AEGIS is organized in three research layers, which match its three work packages. Together they turn scattered edge datacenters into one carbon-efficient, grid-interactive resource. Each Doctoral Candidate (DC) owns one project; the projects are grouped by layer below.
 
+![The AEGIS platform: three layers (WP1–WP3) that connect the computing continuum to the energy system, with each Doctoral Candidate's project mapped to a layer.](/assets/aegis-platform.png)
+{: .figure}
+
+<p class="figure-caption">The AEGIS platform. WP1 gives safe control of a site's physical assets, WP2 adds carbon-aware intelligence, and WP3 coordinates many sites for the grid. Each box shows the Doctoral Candidate (DC) who works on it.</p>
+
 ## Layer 1 — Programmable infrastructure (WP1)
 
 This layer gives safe, verifiable control over a site's physical parts: power electronics, cooling, and AI hardware. It moves step by step from safety guarantees, to switching flexibility on, to a model that reports how much flexibility is available.
