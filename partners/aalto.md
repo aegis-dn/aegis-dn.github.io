@@ -18,8 +18,8 @@ _This page is maintained by the beneficiary. Researchers: feel free to update yo
 
 Wireless communications, signal processing and machine learning, network technology, and edge computing.
 
-- **Prof. Riku Jäntti** ([ORCID](https://orcid.org/0000-0002-5398-2381)) — Full Professor of Communications Engineering; radio resource management, 5G, and cloud radio access networks. Supervises DC11; co-supervises DC12 and DC14.
-- **Assoc. Prof. Yu Xiao** ([ORCID](https://orcid.org/0000-0002-4517-3779)) — Associate Professor; leads the Mobile Cloud Computing group; edge computing and extended reality. Co-supervises DC14 at Ericsson Research Finland.
-- **Dr. Gopika Premsankar** ([ORCID](https://orcid.org/0000-0003-3463-6077)) — Researcher in edge computing and networked systems.
+- **Prof. Riku Jäntti** <a href="https://orcid.org/0000-0002-5398-2381" class="orcid-link" title="ORCID iD: 0000-0002-5398-2381" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Full Professor of Communications Engineering; radio resource management, 5G, and cloud radio access networks. Supervises DC11; co-supervises DC12 and DC14.
+- **Assoc. Prof. Yu Xiao** <a href="https://orcid.org/0000-0002-4517-3779" class="orcid-link" title="ORCID iD: 0000-0002-4517-3779" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Associate Professor; leads the Mobile Cloud Computing group; edge computing and extended reality. Co-supervises DC14 at Ericsson Research Finland.
+- **Dr. Gopika Premsankar** <a href="https://orcid.org/0000-0003-3463-6077" class="orcid-link" title="ORCID iD: 0000-0003-3463-6077" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Researcher in edge computing and networked systems.
 
 [← All partners](/partners/) · [Open positions](/positions/)

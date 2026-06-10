@@ -18,6 +18,6 @@ _This page is maintained by the beneficiary. Researchers: feel free to update yo
 
 Mobile network architecture and deployment, energy-efficient 5G, and the energy use of radio access networks.
 
-- **Dr. Henrik L. Christiansen** ([ORCID](https://orcid.org/0000-0002-9558-3493)) — Senior Mobile RAN Architect; energy-efficient 5G networks; former Associate Professor at DTU. Supervises DC15.
+- **Dr. Henrik L. Christiansen** <a href="https://orcid.org/0000-0002-9558-3493" class="orcid-link" title="ORCID iD: 0000-0002-9558-3493" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Senior Mobile RAN Architect; energy-efficient 5G networks; former Associate Professor at DTU. Supervises DC15.
 
 [← All partners](/partners/) · [Open positions](/positions/)

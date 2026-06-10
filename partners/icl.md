@@ -18,7 +18,7 @@ _This page is maintained by the beneficiary. Researchers: feel free to update yo
 
 Operation, planning, security, and economics of low-carbon and multi-energy systems; close work with grid operators such as NESO.
 
-- **Dr. Fei Teng** ([ORCID](https://orcid.org/0000-0002-6828-0294)) — Reader in Intelligent Energy Systems; decision-making for net-zero power systems. Supervises DC5; co-supervises DC10.
-- **Prof. Goran Strbac** ([ORCID](https://orcid.org/0000-0001-7421-3947)) — Professor of Energy Systems; modeling and analysis of operation, planning, and economics of multi-energy systems.
+- **Dr. Fei Teng** <a href="https://orcid.org/0000-0002-6828-0294" class="orcid-link" title="ORCID iD: 0000-0002-6828-0294" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Reader in Intelligent Energy Systems; decision-making for net-zero power systems. Supervises DC5; co-supervises DC10.
+- **Prof. Goran Strbac** <a href="https://orcid.org/0000-0001-7421-3947" class="orcid-link" title="ORCID iD: 0000-0001-7421-3947" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Professor of Energy Systems; modeling and analysis of operation, planning, and economics of multi-energy systems.
 
 [← All partners](/partners/) · [Open positions](/positions/)

@@ -18,13 +18,13 @@ _This page is maintained by the beneficiary. Researchers: feel free to update yo
 
 Distributed systems, edge AI, service-oriented computing, and cloud, fog, and edge computing.
 
-- **Prof. Stefan Schulte** ([ORCID](https://orcid.org/0000-0001-6828-9945)) — Head of the Chair of Software and Business Engineering; distributed systems and edge AI. Supervises DC8; co-supervises DC13.
+- **Prof. Stefan Schulte** <a href="https://orcid.org/0000-0001-6828-9945" class="orcid-link" title="ORCID iD: 0000-0001-6828-9945" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Head of the Chair of Software and Business Engineering; distributed systems and edge AI. Supervises DC8; co-supervises DC13.
 
 ### Chair for Service-centric Networking (SNET)
 *TU Berlin / Telekom Innovation Laboratories (T-Labs)*
 
 Trustworthy digital infrastructures, self-sovereign digital identities, agent-based service orchestration, and cloud-edge continuum architectures for 6G.
 
-- **Prof. Axel Küpper** ([ORCID](https://orcid.org/0000-0002-4356-5613)) — Head of the Chair for Service-centric Networking, an endowed professorship at the Telekom Innovation Laboratories. Supervises DC12; co-supervises DC10.
+- **Prof. Axel Küpper** <a href="https://orcid.org/0000-0002-4356-5613" class="orcid-link" title="ORCID iD: 0000-0002-4356-5613" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Head of the Chair for Service-centric Networking, an endowed professorship at the Telekom Innovation Laboratories. Supervises DC12; co-supervises DC10.
 
 [← All partners](/partners/) · [Open positions](/positions/)

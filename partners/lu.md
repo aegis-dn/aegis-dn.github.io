@@ -18,7 +18,7 @@ _This page is maintained by the beneficiary. Researchers: feel free to update yo
 
 Control engineering, system identification, and real-time computing; part of the WASP program.
 
-- **Prof. Johan Eker** ([ORCID](https://orcid.org/0000-0003-0181-3970)) — Professor with a shared position as Principal Researcher at Ericsson; leads the WASP WARA-Ops research arena. Supervises DC9; co-supervises DC8 and DC14.
-- **Prof. Karl-Erik Årzén** ([ORCID](https://orcid.org/0000-0002-3159-0563)) — Professor and co-director of WASP; head of the Department of Automatic Control.
+- **Prof. Johan Eker** <a href="https://orcid.org/0000-0003-0181-3970" class="orcid-link" title="ORCID iD: 0000-0003-0181-3970" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Professor with a shared position as Principal Researcher at Ericsson; leads the WASP WARA-Ops research arena. Supervises DC9; co-supervises DC8 and DC14.
+- **Prof. Karl-Erik Årzén** <a href="https://orcid.org/0000-0002-3159-0563" class="orcid-link" title="ORCID iD: 0000-0002-3159-0563" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Professor and co-director of WASP; head of the Department of Automatic Control.
 
 [← All partners](/partners/) · [Open positions](/positions/)

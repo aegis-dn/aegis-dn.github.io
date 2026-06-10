@@ -18,8 +18,8 @@ _This page is maintained by the beneficiary. Researchers: feel free to update yo
 
 Secure systems design, hardware acceleration, cryptography, and data-centric computing.
 
-- **Dr. Aidan O'Mahony** ([ORCID](https://orcid.org/0000-0001-8413-9656)) — Senior Principal Research Scientist; secure systems, cryptography, and FPGAs. Supervises DC10; co-supervises DC7.
-- **Alan Cueva Mora** ([ORCID](https://orcid.org/0009-0003-6547-8101)) — Research scientist; systems software and Horizon Europe research.
-- **Pournima Sonawane** ([ORCID](https://orcid.org/0009-0009-3008-7235)) — Researcher in the CTO Research group.
+- **Dr. Aidan O'Mahony** <a href="https://orcid.org/0000-0001-8413-9656" class="orcid-link" title="ORCID iD: 0000-0001-8413-9656" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Senior Principal Research Scientist; secure systems, cryptography, and FPGAs. Supervises DC10; co-supervises DC7.
+- **Alan Cueva Mora** <a href="https://orcid.org/0009-0003-6547-8101" class="orcid-link" title="ORCID iD: 0009-0003-6547-8101" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Research scientist; systems software and Horizon Europe research.
+- **Pournima Sonawane** <a href="https://orcid.org/0009-0009-3008-7235" class="orcid-link" title="ORCID iD: 0009-0009-3008-7235" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Researcher in the CTO Research group.
 
 [← All partners](/partners/) · [Open positions](/positions/)

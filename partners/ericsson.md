@@ -18,8 +18,8 @@ _This page is maintained by the beneficiary. Researchers: feel free to update yo
 
 Cloud-native software, network orchestration, and energy-efficient networks.
 
-- **Miika Komu** ([ORCID](https://orcid.org/0000-0002-9687-5076)) — Senior researcher in cloud-native software; co-author of seven IETF RFCs. Supervises DC14; co-supervises DC11.
-- **Lackis Eleftheriadis** ([ORCID](https://orcid.org/0009-0009-6183-5152)) — Researcher in energy-efficient networks and machine learning.
-- **Illyyne Saffar** ([ORCID](https://orcid.org/0009-0009-7667-2536)) — Researcher in AI for networks.
+- **Miika Komu** <a href="https://orcid.org/0000-0002-9687-5076" class="orcid-link" title="ORCID iD: 0000-0002-9687-5076" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Senior researcher in cloud-native software; co-author of seven IETF RFCs. Supervises DC14; co-supervises DC11.
+- **Lackis Eleftheriadis** <a href="https://orcid.org/0009-0009-6183-5152" class="orcid-link" title="ORCID iD: 0009-0009-6183-5152" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Researcher in energy-efficient networks and machine learning.
+- **Illyyne Saffar** <a href="https://orcid.org/0009-0009-7667-2536" class="orcid-link" title="ORCID iD: 0009-0009-7667-2536" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Researcher in AI for networks.
 
 [← All partners](/partners/) · [Open positions](/positions/)

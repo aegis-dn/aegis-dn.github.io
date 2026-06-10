@@ -117,6 +117,15 @@ th { background: #f4f4f4; }
 /* Beneficiary logos inside the partners table */
 .ben-logo { max-height: 38px; max-width: 110px; width: auto; display: block; }
 
+/* Beneficiaries table column widths: narrow logo, wider name */
+.ben-table td:nth-child(1), .ben-table th:nth-child(1) { width: 6.5rem; }
+.ben-table td:nth-child(2), .ben-table th:nth-child(2) { width: 14rem; }
+
+/* ORCID iD icon link next to researcher names */
+.orcid-icon { height: 1em; width: 1em; vertical-align: -0.15em; }
+.orcid-link { margin-left: 0.1em; }
+.orcid-link:hover { text-decoration: none; }
+
 /* Figure caption */
 .figure-caption {
   font-size: 0.85rem;
