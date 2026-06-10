@@ -1,6 +1,6 @@
 title: AEGIS
 description: "AEGIS — Adaptive Grid-Interactive Edge Datacenter Fleets. An MSCA Doctoral Network recruiting 15 PhD candidates across Europe."
-url: "https://aegis-dn.github.io"
+url: "https://aegis-dn.eu"
 markdown: kramdown
 exclude: [README.md, Gemfile, Gemfile.lock]
 defaults:
