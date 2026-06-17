@@ -34,4 +34,4 @@ AEGIS follows open, transparent, merit-based selection, in line with the Europea
 
 ## Questions
 
-Write to the coordinator, Prof. Paul Pop, [paupo@dtu.dk](mailto:paupo@dtu.dk).
+Write to the coordinator, Prof. Paul Pop, [aegis@compute.dtu.dk](mailto:aegis@compute.dtu.dk).

@@ -31,4 +31,4 @@ Even modest flexibility is valuable: a 25% power reduction for 200 hours can fre
 
 The problem crosses many fields: energy systems, control theory, machine learning, operations research, and cybersecurity. Few people can bridge them today, which slows progress. AEGIS trains 15 Doctoral Candidates to become the experts who can. A Doctoral Network is the right tool, because it brings universities and companies together across countries and sectors. The consortium has 7 universities and 3 companies as [beneficiaries](/partners/), plus 9 associated partners. The team builds on experience coordinating the FORA MSCA network (2017–2021).
 
-Coordinator: Prof. Paul Pop, DTU Compute — [paupo@dtu.dk](mailto:paupo@dtu.dk).
+Coordinator: Prof. Paul Pop, DTU Compute — [aegis@compute.dtu.dk](mailto:aegis@compute.dtu.dk).

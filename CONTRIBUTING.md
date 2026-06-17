@@ -4,7 +4,7 @@ Thank you for helping keep the AEGIS Doctoral Network website accurate. Most upd
 
 ## Regular Contributors
 
-If you are an AEGIS PhD student, a partner representative who will update the site regularly, or another active contributor, please email your GitHub username to **paupo@dtu.dk** so you can be added to the repository when appropriate.
+If you are an AEGIS PhD student, a partner representative who will update the site regularly, or another active contributor, please email your GitHub username to **aegis@compute.dtu.dk** so you can be added to the repository when appropriate.
 
 ## Occasional Edits
 
@@ -13,10 +13,10 @@ If you only need to edit the site once or a few times, you do not need repositor
 ### Option 1: Email the Edited Markdown File
 
 1. Open the relevant `.md` file in the GitHub repository.
-2. Click **Raw**.
+2. Click the **Download raw file** icon, shown as a downward arrow.
 3. Save the file, keeping the `.md` filename.
 4. Edit it in a plain-text editor.
-5. Email the edited file to **paupo@dtu.dk**.
+5. Email the edited file to **aegis@compute.dtu.dk**.
 
 If the change is small, you can also email the exact text to add or replace, plus the page and section where it belongs.
 

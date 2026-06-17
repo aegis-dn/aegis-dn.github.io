@@ -41,4 +41,4 @@ You have, or are close to finishing, an **MSc in Computing, Electronics, Energy 
 
 You may apply to **more than one** position — just tell us your order of preference in your motivation letter. See [how to apply](/how-to-apply/).
 
-Looking for a postdoc on AEGIS topics instead? Please contact the coordinator, Prof. Paul Pop, [paupo@dtu.dk](mailto:paupo@dtu.dk).
+Looking for a postdoc on AEGIS topics instead? Please contact the coordinator, Prof. Paul Pop, [aegis@compute.dtu.dk](mailto:aegis@compute.dtu.dk).
