@@ -1,27 +1,56 @@
-# aegis-dn.github.io — maintainer's guide
+# aegis-dn.github.io - maintainer guide
 
-Recruitment website for **AEGIS — Adaptive Grid-Interactive Edge Datacenter Fleets**, an EU Horizon Europe Marie Skłodowska-Curie Doctoral Network (grant agreement No 101311399), running 2026–2030. The site's job is to recruit the network's 15 Doctoral Candidates (PhD positions).
+Recruitment website for **AEGIS - Adaptive Grid-Interactive Edge Datacenter Fleets**, an EU Horizon Europe Marie Sklodowska-Curie Doctoral Network (grant agreement No 101311399), running 2026-2030. The site's job is to recruit the network's 15 Doctoral Candidates (PhD positions).
 
-It is a static [Jekyll](https://jekyllrb.com/) site (no theme gem, no JavaScript, GitHub-Pages-safe). This README is the working reference for how it's hosted and built.
+It is a static [Jekyll](https://jekyllrb.com/) site: no theme gem, no JavaScript, and safe for GitHub Pages. Website pages are edited directly as Markdown.
 
 ## Hosting
 
 | What | Where |
 |---|---|
-| Repo | `github.com/aegis-dn/aegis-dn.github.io` (public) |
+| Repo | `github.com/aegis-dn/aegis-dn.github.io` |
 | Hosting | GitHub Pages, built by the **`pages build and deployment`** GitHub Action on every push to `main` |
-| Public URL | **https://aegis-dn.eu** (custom domain, set in the `CNAME` file) |
-| DNS | Apex `aegis-dn.eu` → GitHub A/AAAA records; HTTPS is enforced. `aegis-dn.github.io` 301-redirects to `aegis-dn.eu`. DNS + HTTPS are already configured. |
+| Public URL | **https://aegis-dn.eu** |
+| Custom domain | Set in `CNAME` |
 
-**Deploy = `git push origin main`.** The Action builds and publishes within a minute or two.
+Deploying is just:
 
-> **Known gotcha:** the deploy step occasionally fails with a transient `401 Requires authentication` ("Creating Pages deployment failed"). The Jekyll build itself is fine. Fix: re-run the failed workflow, or push an empty commit (`git commit --allow-empty -m "rebuild" && git push`). It then succeeds.
->
-> Watch a deploy: `gh run list --repo aegis-dn/aegis-dn.github.io --limit 1` then `gh run view <id>`. (Note: the `gh` token may lack rights to *cancel/rerun* Actions on the `aegis-dn` org even though `git push` works — pushing an empty commit is the reliable nudge.)
+```sh
+git push origin main
+```
 
-## Build & preview locally
+The GitHub Pages Action normally builds and publishes within a minute or two. If the deploy step fails while the Jekyll build itself succeeds, rerun the failed workflow from GitHub Actions or push an empty rebuild commit:
 
-GitHub Pages builds with its own Ruby, but to preview locally use the Homebrew Ruby + a dedicated gem home (the system Ruby 2.6 is too old for Jekyll 4):
+```sh
+git commit --allow-empty -m "rebuild"
+git push
+```
+
+## Editing Content
+
+Edit the relevant `.md` file directly. The main page files live at the repository root, partner pages live under `partners/`, and position pages live under `positions/`.
+
+Common files:
+
+```text
+index.md
+about.md
+research.md
+partners.md
+partners/<partner>.md
+positions.md
+positions/dc01.md ... positions/dc15.md
+dn-benefits.md
+job-requirements.md
+how-to-apply.md
+news.md
+```
+
+Use plain Markdown and keep changes focused. Do not edit `_site/`; it is build output.
+
+## Local Preview
+
+GitHub Pages builds with its own Ruby environment. For local preview on macOS, use Homebrew Ruby and a dedicated gem home:
 
 ```sh
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
@@ -30,32 +59,39 @@ export PATH="$GEM_HOME/bin:$PATH"
 # one-time: gem install jekyll bundler
 
 cd ~/git/aegis-dn.github.io
-jekyll build                                   # -> _site/
-jekyll serve --no-watch --host 127.0.0.1 --port 4001   # preview
-# stop: pkill -f "jekyll serve"
+jekyll build
+jekyll serve --no-watch --host 127.0.0.1 --port 4001
 ```
 
-## Repository layout
+Then open `http://127.0.0.1:4001`.
 
-```
-_config.yml              # url, kramdown, site settings
+## Repository Layout
+
+```text
+_config.yml              # site title, URL, Markdown engine, Jekyll excludes
 CNAME                    # aegis-dn.eu
-_layouts/default.html    # the ONE layout: logo header, nav, EU funding footer, favicon links
-_includes/apply-block.html  # shared "How to apply" block (the apply URL lives ONLY here)
+_layouts/default.html    # shared page layout, header, nav, footer, favicon links
+_includes/apply-block.html  # shared "How to apply" block
 assets/
-  css/style.css          # all styling (FORA-derived colors: red #b3122b, grey borders #e2e2e2)
+  css/style.css          # site styling
   aegis-logo.png         # header wordmark
-  favicon.svg + .ico/png + apple-touch-icon.png   # red power-button favicon (from the logo SVG)
-  orcid.svg              # green ORCID iD icon used on researcher entries
+  favicon.*              # favicon and touch icons
+  orcid.svg              # ORCID icon used on researcher entries
   eu-flag.jpeg           # footer
-  logos/<10>.png         # beneficiary logos
-index.md about.md research.md dn-benefits.md job-requirements.md how-to-apply.md news.md
-partners.md  partners/<dtu,epfl,tuw,tub,icl,lu,aalto,ericsson,dell,tdc>.md
-positions.md positions/dc01.md … dc15.md
+  logos/<partner>.png    # beneficiary logos
+partners/                # one Markdown page per beneficiary
+positions/               # one Markdown page per Doctoral Candidate position
 ```
 
-## Updating common things
+## Common Updates
 
-- Edit Markdown pages directly.
-- Change the apply link in the shared apply include.
-- Update position status in the positions index and the relevant position page.
+- **Apply link:** edit `_includes/apply-block.html`.
+- **Position status:** edit `positions.md` and the relevant `positions/dcNN.md` page.
+- **Official vacancy links:** edit the relevant `positions/dcNN.md` page.
+- **Partner details or researchers:** edit the relevant `partners/<partner>.md` page.
+- **ORCID links:** keep using the green `assets/orcid.svg` icon style already present in the pages.
+- **Layout or visual styling:** edit `_layouts/default.html` or `assets/css/style.css`.
+
+## Contributions
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the preferred workflows for PhD students, regular contributors, occasional contributors, email edits, and pull requests.
