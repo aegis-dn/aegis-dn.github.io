@@ -20,7 +20,7 @@ Methods, tools, and architectures for dependable edge computing, edge AI, and lo
 
 - **Prof. Paul Pop** <a href="https://orcid.org/0000-0001-9981-1775" class="orcid-link" title="ORCID iD: 0000-0001-9981-1775" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Professor of Cyber-Physical Systems and Head of ESE; AEGIS Coordinator. Supervises DC13; co-supervises DC15. Coordinated the FORA MSCA network (2017–2021).
 - **Prof. Xenofon Fafoutis** <a href="https://orcid.org/0000-0002-9871-0013" class="orcid-link" title="ORCID iD: 0000-0002-9871-0013" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Professor of Networked Embedded Systems; embedded AI and energy-efficient machine learning. Supervises DC7; co-supervises DC3.
-- **Dr. Luca Pezzarossa** <a href="https://orcid.org/0000-0002-0863-2526" class="orcid-link" title="ORCID iD: 0000-0002-0863-2526" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Researcher in embedded systems and time-predictable platforms.
+- **Assoc. Prof. Luca Pezzarossa** <a href="https://orcid.org/0000-0002-0863-2526" class="orcid-link" title="ORCID iD: 0000-0002-0863-2526" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Associate Professor in embedded systems and time-predictable platforms. Co-supervises DC7.
 
 ### Dynamical Systems (DynSys)
 *DTU Compute*
