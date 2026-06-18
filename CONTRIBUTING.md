@@ -4,9 +4,7 @@ Thank you for helping keep the AEGIS Doctoral Network website accurate. Most upd
 
 ## Current Startup Workflow
 
-During the startup phase, supervisors should update the Markdown copy of the website in the AEGIS OneDrive intranet:
-
-`/Users/paupo/Library/CloudStorage/OneDrive-DanmarksTekniskeUniversitet/projects/AEGIS/00_Administrative/Dissemination/Website`
+During the startup phase, supervisors should update the Markdown copy of the website in the AEGIS OneDrive intranet: `00_Administrative/Dissemination/Website`
 
 OneDrive and SharePoint now support editing `.md` files in the browser, so small page updates can be made directly in the intranet copy. The coordinator will sync accepted edits back to the GitHub website repository.
 
