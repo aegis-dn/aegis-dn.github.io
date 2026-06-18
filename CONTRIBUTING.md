@@ -2,9 +2,19 @@
 
 Thank you for helping keep the AEGIS Doctoral Network website accurate. Most updates are simple Markdown edits.
 
-## Regular Contributors
+## Current Startup Workflow
 
-If you are an AEGIS PhD student, a partner representative who will update the site regularly, or another active contributor, please email your GitHub username to **aegis@compute.dtu.dk** so you can be added to the repository when appropriate.
+During the startup phase, supervisors should update the Markdown copy of the website in the AEGIS OneDrive intranet:
+
+`/Users/paupo/Library/CloudStorage/OneDrive-DanmarksTekniskeUniversitet/projects/AEGIS/00_Administrative/Dissemination/Website`
+
+OneDrive and SharePoint now support editing `.md` files in the browser, so small page updates can be made directly in the intranet copy. The coordinator will sync accepted edits back to the GitHub website repository.
+
+Please edit the relevant `.md` file only. The main public pages are at the top level, partner pages are in `partners/`, and Doctoral Candidate project pages are in `positions/`.
+
+## Future Regular Contributors
+
+After the initial setup phase, AEGIS PhD students and other regular contributors will be added to the AEGIS GitHub organization. If you are an AEGIS PhD student, a partner representative who will update the site regularly, or another active contributor, please email your GitHub username to **aegis@compute.dtu.dk** so you can be added to the repository when appropriate.
 
 ## Occasional Edits
 
