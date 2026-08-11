@@ -1,8 +1,16 @@
 <h2>How to apply</h2>
+{% if include.official %}
+<p><strong>Official vacancy at the host institution:</strong>
+<a href="{{ include.official }}" target="_blank" rel="noopener">apply here</a>{% if include.deadline %}
+(application deadline: {{ include.deadline }}){% endif %}.</p>
+<p>Please also read
+<a href="/how-to-apply/">what to include in your application</a>.</p>
+{% else %}
 <p><strong>Official vacancy at the host institution:</strong> <em>link coming soon.</em></p>
 <p>Until then, apply through the central AEGIS application portal:
 <a href="https://zrec.eu/mW1f0">AEGIS application portal</a>
 (reference position {{ include.dc }}), and read
 <a href="/how-to-apply/">what to include in your application</a>.</p>
+{% endif %}
 <p>Questions about this position? Contact the coordinator,
 Prof. Paul Pop, <a href="mailto:aegis@compute.dtu.dk">aegis@compute.dtu.dk</a>.</p>
