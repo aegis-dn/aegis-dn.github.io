@@ -4,10 +4,18 @@
 <a href="{{ include.official }}" target="_blank" rel="noopener">apply here</a>{% if include.deadline %}
 (application deadline: {{ include.deadline }}){% endif %}{% if include.note %}
 ({{ include.note }}){% endif %}.</p>
+{% else %}
+<p><strong>Official vacancy at the host institution:</strong> <em>link coming soon.</em></p>
+{% endif %}
+{% if include.apply_email %}
+<p>Apply by email for {{ include.dc }} to
+{% if include.apply_name %}{{ include.apply_name }}, {% endif %}<a href="mailto:{{ include.apply_email }}">{{ include.apply_email }}</a>{% if include.deadline %}
+(application deadline: {{ include.deadline }}){% endif %}, and read
+<a href="/how-to-apply/">what to include in your application</a>.</p>
+{% elsif include.official %}
 <p>Please also read
 <a href="/how-to-apply/">what to include in your application</a>.</p>
 {% else %}
-<p><strong>Official vacancy at the host institution:</strong> <em>link coming soon.</em></p>
 <p>Until then, apply through the central AEGIS application portal:
 <a href="https://zrec.eu/mW1f0">AEGIS application portal</a>
 (reference position {{ include.dc }}), and read
