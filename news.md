@@ -3,6 +3,11 @@ title: "News"
 permalink: /news/
 ---
 
+## Postdoctoral position at DTU Compute
+*Application deadline: 31 October 2026*
+
+AEGIS is recruiting a postdoc to build the shared interfaces, co-simulation framework, and benchmarks that integrate the network's 15 PhD projects. [View the official vacancy and apply](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7991/).
+
 ## 15 PhD positions now open
 *Open now*
 

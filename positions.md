@@ -41,4 +41,12 @@ You have, or are close to finishing, an **MSc in Computing, Electronics, Energy 
 
 You may apply to **more than one** position — just tell us your order of preference in your motivation letter. See [how to apply](/how-to-apply/).
 
-Looking for a postdoc on AEGIS topics instead? Please contact the coordinator, Prof. Paul Pop, [aegis@compute.dtu.dk](mailto:aegis@compute.dtu.dk).
+## Project team openings
+
+### Postdoc in software systems integration, modeling, and simulation for sustainable datacenter fleets
+
+DTU Compute is recruiting a postdoc to build the shared interface schema, co-simulation framework, and benchmarks that integrate the 15 PhD projects across 10 European partners. The postdoc will also publish research that cuts across the network's individual projects.
+
+**Application deadline:** 31 October 2026.
+
+[View the official vacancy and apply →](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7991/){: .cta-link}

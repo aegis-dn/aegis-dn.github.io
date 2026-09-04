@@ -11,6 +11,14 @@ Applications are open now; start dates run from February to September 2027.
 [See the open positions →](/positions/){: .cta-link}
 </div>
 
+<div class="cta-box" markdown="1">
+**Project team opening: postdoc at DTU Compute.**
+Join AEGIS to build the shared interfaces, co-simulation framework, and benchmarks that integrate the 15 PhD projects across the network.
+[View the postdoc vacancy and apply →](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7991/){: .cta-link}
+
+Application deadline: **31 October 2026**.
+</div>
+
 ## The challenge
 
 Edge datacenters — small computing sites close to where data is produced — are spreading fast, driven by AI. But the power grid is under strain, and Europe wastes large amounts of clean energy because supply, demand, and grid limits do not match. Today, datacenters sit on the grid as passive loads, blind to its needs.
