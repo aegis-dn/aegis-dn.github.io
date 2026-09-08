@@ -32,7 +32,7 @@ You have, or are close to finishing, an **MSc in Computing, Electronics, Energy 
 | DC7 | [Carbon-Aware Neural Architecture Search (NAS)](/positions/dc07/) | Technical University of Denmark | Denmark | <span class="status-badge status-open">open</span> |
 | DC8 | [Grid-Aware AI Workload Mobility for the Computing Continuum](/positions/dc08/) | Technische Universität Berlin | Germany | <span class="status-badge status-open">open</span> |
 | DC9 | [Intent-Driven Power Management and Facilities Control](/positions/dc09/) | Lund University | Sweden | <span class="status-badge status-open">open</span> |
-| DC10 | [Privacy and Safety for Carbon-Aware Site-Level Workload Management](/positions/dc10/) | Dell Technologies (degree: Imperial College London) | Ireland | <span class="status-badge status-open">open</span> |
+| DC10 | [Privacy and Safety for Carbon-Aware Site-Level Workload Management](/positions/dc10/) | Dell Technologies (degree: Imperial College London) | Ireland | <span class="status-badge status-closed">closed</span> |
 | DC11 | [End-to-End Energy Modeling for Distributed AI Services](/positions/dc11/) | Aalto University | Finland | <span class="status-badge status-open">open</span> |
 | DC12 | [Agentic Verification for Trusted Autonomous Operations](/positions/dc12/) | Technische Universität Berlin | Germany | <span class="status-badge status-open">open</span> |
 | DC13 | [Fleet-Level Workload Shaping with Live Grid Signals](/positions/dc13/) | Technical University of Denmark | Denmark | <span class="status-badge status-open">open</span> |

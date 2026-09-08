@@ -101,6 +101,7 @@ th { background: #f4f4f4; }
 }
 .status-open { background: #e3f4e3; color: #1d6f1d; }
 .status-soon { background: #eee; color: #555; }
+.status-closed { background: #f0e3e3; color: #8a3232; }
 .status-filled { background: #f0e3e3; color: #8a3232; }
 
 /* Beneficiary logo grid (legacy) */
