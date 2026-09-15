@@ -43,6 +43,6 @@ Smart grids and data-driven control of distributed energy resources; runs the SY
 
 Green cellular communications and 5G/6G; hosts the PhD enrolment for the Doctoral Candidate based at TDC NET (DC15).
 
-- **Assoc. Prof. Michael Stübert Berger** <a href="https://orcid.org/0000-0003-4575-7261" class="orcid-link" title="ORCID iD: 0000-0003-4575-7261" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Expert in green cellular communications and 5G/6G; co-supervises and hosts the degree for DC15.
+- **Assoc. Prof. Michael Stübert Berger** <a href="https://orcid.org/0000-0003-4575-7261" class="orcid-link" title="ORCID iD: 0000-0003-4575-7261" target="_blank" rel="noopener"><img src="/assets/orcid.svg" alt="ORCID iD" class="orcid-icon"></a> — Expert in green cellular communications and 5G/6G; formal DTU degree supervisor for DC15.
 
 [← All partners](/partners/) · [Open positions](/positions/)
