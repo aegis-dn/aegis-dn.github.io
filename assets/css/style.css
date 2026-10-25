@@ -1,146 +1,244 @@
+/* AEGIS visual identity (October 2026).
+   Grid after the AEGIS slide template (itself after Vignelli's Unigrid): four columns, a narrow label
+   column for section headings, black rules above sections, yellow for the cover band and calls to
+   action, the proposal palette for WP coding. Font: Clear Sans (Apache 2.0, self-hosted). */
+
+@font-face { font-family: "Clear Sans"; font-weight: 300; font-style: normal; font-display: swap;
+  src: url("/assets/fonts/ClearSans-Light.woff2") format("woff2"); }
+@font-face { font-family: "Clear Sans"; font-weight: 400; font-style: normal; font-display: swap;
+  src: url("/assets/fonts/ClearSans-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Clear Sans"; font-weight: 500 700; font-style: normal; font-display: swap;
+  src: url("/assets/fonts/ClearSans-Medium.woff2") format("woff2"); }
+
+:root {
+  --black: #000000;
+  --ink: #1a1a1a;
+  --grey-11: #53565a;
+  --grey-7: #97999b;
+  --grey-3: #c8c9c7;
+  --grey-0: #efefed;
+  --red: #de2d26;
+  --red-dark: #a50f15;
+  --yellow: #ffcd00;
+  --wp1: #de2d26;  --wp1-tint: #fee0d2;
+  --wp2: #31a354;  --wp2-tint: #e5f5e0;
+  --wp3: #3182bd;  --wp3-tint: #e3f2fd;
+  --gutter: 1.5rem;
+  --wrap: 72rem;
+  --measure: 46rem;
+}
+
 *, *::before, *::after { box-sizing: border-box; }
 
+html { -webkit-text-size-adjust: 100%; }
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.6;
-  color: #222;
   margin: 0;
-  padding: 0 1rem;
+  font-family: "Clear Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--ink);
+  background: #fff;
 }
 
-.site-header,
-.site-main,
-.site-footer {
-  max-width: 50rem;
+.wrap {
+  max-width: var(--wrap);
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
-.site-header {
-  padding: 1.5rem 0 1rem;
-  border-bottom: 1px solid #e2e2e2;
-}
+a { color: var(--red-dark); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { color: var(--red); }
 
-.site-header .logo img {
-  max-height: 50px;
-  width: auto;
-}
-
-.site-nav {
-  margin-top: 1rem;
-  font-size: 0.95rem;
-  line-height: 2;
-}
-
-.site-nav a { white-space: nowrap; }
-
-.site-nav a.nav-cta {
-  font-weight: 700;
-  color: #b3122b;
-}
-
-.site-main { padding: 1.5rem 0 3rem; }
-
-a { color: #b3122b; text-decoration: none; }
-a:hover { text-decoration: underline; }
-
-h1 { font-size: 1.9rem; line-height: 1.2; }
-h2 { font-size: 1.4rem; margin-top: 2rem; }
-h3 { font-size: 1.15rem; }
+strong, b { font-weight: 500; }
 
 img { max-width: 100%; height: auto; }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1rem 0;
-  font-size: 0.9rem;
+h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--black); }
+h1 { font-size: 2.25rem; margin: 0.4rem 0 0; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1.1rem; margin: 1.6rem 0 0.4rem; }
+
+.marker {
+  display: block;
+  width: 2.5rem;
+  height: 0.3rem;
+  background: var(--red);
+  margin-bottom: 0.6rem;
 }
 
-th, td {
-  border: 1px solid #ccc;
-  padding: 0.4rem 0.6rem;
-  text-align: left;
-  vertical-align: top;
-}
-
-th { background: #f4f4f4; }
-
-/* Call-to-action box (home hero, page footers) */
-.cta-box {
-  background: #faf3f4;
-  border: 1px solid #e6c9ce;
-  border-left: 4px solid #b3122b;
-  padding: 1rem 1.25rem;
-  margin: 1.5rem 0;
-  border-radius: 4px;
-}
-.cta-box p { margin: 0.4rem 0; }
-.cta-box .cta-link { font-weight: 700; font-size: 1.05rem; }
-
-/* Key-facts strip on the home page */
-.facts {
-  list-style: none;
-  padding: 0;
-  margin: 1.5rem 0;
+/* ---------- Header ---------- */
+.site-header { border-bottom: 1px solid var(--black); }
+.header-grid {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1.5rem;
-  font-size: 0.95rem;
-}
-.facts li { font-weight: 600; }
-.facts li::before { content: "▪ "; color: #b3122b; }
-
-/* Status badges in the positions table */
-.status-badge {
-  display: inline-block;
-  padding: 0.1rem 0.5rem;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-.status-open { background: #e3f4e3; color: #1d6f1d; }
-.status-soon { background: #eee; color: #555; }
-.status-closed { background: #f0e3e3; color: #8a3232; }
-.status-filled { background: #f0e3e3; color: #8a3232; }
-
-/* Beneficiary logo grid (legacy) */
-.logo-grid {
-  display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 1.5rem 2rem;
-  margin: 1.25rem 0 2rem;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
+.site-header .logo img { display: block; height: 46px; width: auto; }
+.site-nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; font-size: 0.95rem; }
+.site-nav a { color: var(--ink); text-decoration: none; white-space: nowrap; }
+.site-nav a:hover { color: var(--red); }
+.site-nav a.nav-cta {
+  background: var(--yellow);
+  color: var(--black);
+  font-weight: 500;
+  padding: 0.05rem 0.6rem;
+}
+
+/* Home: the header logo moves into the yellow cover band */
+.home .site-header .logo { visibility: hidden; }
+.hero { background: var(--yellow); }
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gutter);
+  align-items: end;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.hero-logo { grid-column: 1 / span 2; width: 100%; max-width: 26rem; }
+.hero-text { grid-column: 3 / -1; }
+.hero-title { font-size: 2rem; margin: 0 0 0.5rem; }
+.hero-sub { margin: 0; color: var(--grey-11); }
+
+/* ---------- Page head ---------- */
+.site-main { padding-top: 2.5rem; padding-bottom: 4rem; }
+.page-head {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 var(--gutter);
+  margin-bottom: 1rem;
+}
+.page-head .eyebrow { grid-column: 1; font-size: 0.85rem; color: var(--grey-11); padding-top: 0.2rem; }
+.page-head h1 { grid-column: 2 / -1; margin: 0; padding-top: 0.6rem; border-top: 2px solid var(--black); }
+.page-head .eyebrow { padding-top: 0; }
+
+/* ---------- Content grid: headings in the label column, text in the three content columns ---------- */
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: var(--gutter);
+}
+.content > * { grid-column: 2 / -1; max-width: var(--measure); }
+.content > table,
+.content > .cta-box,
+.content > .figures,
+.content > .table-wrap,
+.content > p:has(> img) { max-width: none; }
+
+.content > h2 {
+  grid-column: 1;
+  margin: 2.75rem 0 0;
+  padding-top: 0.6rem;
+  border-top: 2px solid var(--black);
+}
+.content > h2 + * {
+  margin-top: 2.75rem;
+  padding-top: 0.6rem;
+  border-top: 2px solid var(--black);
+}
+.content > h2 + * > :first-child { margin-top: 0; }
+.content > h2 + p, .content > h2 + ul, .content > h2 + ol { margin-top: 2.75rem; }
+.content > h2:first-child, .content > h2:first-child + * { margin-top: 0.5rem; }
+
+.content p, .content ul, .content ol { margin: 0 0 1rem; }
+.content ul, .content ol { padding-left: 1.2rem; }
+.content li { margin-bottom: 0.3rem; }
+.content li::marker { color: var(--grey-7); }
+
+/* ---------- Tables ---------- */
+table { border-collapse: collapse; width: 100%; margin: 0 0 1.5rem; font-size: 0.92rem; }
+th, td { border: 0; border-bottom: 1px solid var(--grey-3); padding: 0.55rem 0.6rem; text-align: left; vertical-align: top; }
+th { font-weight: 500; color: var(--grey-11); border-bottom: 2px solid var(--black); }
+
+/* WP colour coding of the DC column (proposal palette): DC1–5 WP1, DC6–10 WP2, DC11–15 WP3 */
+.dc-table td:first-child { font-weight: 500; color: #fff; text-align: center; white-space: nowrap; width: 3.6rem; }
+.dc-table tbody tr:nth-child(-n+5) td:first-child { background: var(--wp1); }
+.dc-table tbody tr:nth-child(n+6):nth-child(-n+10) td:first-child { background: var(--wp2); }
+.dc-table tbody tr:nth-child(n+11) td:first-child { background: var(--wp3); }
+
+/* ---------- Calls to action: yellow panels ---------- */
+.cta-box {
+  background: var(--yellow);
+  color: var(--black);
+  padding: 1.1rem 1.4rem;
+  margin: 0 0 1.25rem;
+}
+.cta-box p { margin: 0.35rem 0; }
+.cta-box a { color: var(--black); }
+.cta-box .cta-link { font-weight: 500; font-size: 1.05rem; }
+
+/* ---------- Key figures (home) ---------- */
+.figures {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--gutter);
+  margin: 1.5rem 0 2rem;
+}
+.figures div { border-left: 1px solid var(--grey-3); padding-left: 0.9rem; }
+.figures div:first-child { border-left: 0; padding-left: 0; }
+.figures .num { display: block; font-size: 3.4rem; font-weight: 300; line-height: 1; color: var(--red); }
+.figures .lab { display: block; font-size: 0.9rem; margin-top: 0.5rem; }
+.figures-note { font-size: 0.9rem; color: var(--grey-11); }
+
+/* Legacy facts list (kept for safety) */
+.facts { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+.facts li::before { content: "▪ "; color: var(--red); }
+
+/* ---------- Status badges ---------- */
+.status-badge { display: inline-block; padding: 0.05rem 0.5rem; font-size: 0.8rem; font-weight: 500; white-space: nowrap; }
+.status-open { background: var(--wp2-tint); color: #006d2c; }
+.status-soon { background: var(--grey-0); color: var(--grey-11); }
+.status-closed, .status-filled { background: var(--wp1-tint); color: var(--red-dark); }
+
+/* ---------- Partners ---------- */
+.logo-grid { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem 2rem; margin: 1.25rem 0 2rem; }
 .logo-grid a { display: inline-flex; align-items: center; }
 .logo-grid img { height: 48px; width: auto; }
-
-/* Beneficiary logos inside the partners table */
-.ben-logo { max-height: 38px; max-width: 110px; width: auto; display: block; }
-
-/* Beneficiaries table column widths: narrow logo, wider name */
-.ben-table td:nth-child(1), .ben-table th:nth-child(1) { width: 6.5rem; }
+.ben-logo { max-height: 40px; max-width: 120px; width: auto; display: block; }
+.ben-table td:nth-child(1), .ben-table th:nth-child(1) { width: 8rem; }
 .ben-table td:nth-child(2), .ben-table th:nth-child(2) { width: 14rem; }
 
 /* ORCID iD icon link next to researcher names */
 .orcid-icon { height: 1em; width: 1em; vertical-align: -0.15em; }
-.orcid-link { margin-left: 0.1em; }
-.orcid-link:hover { text-decoration: none; }
+.orcid-link { margin-left: 0.1em; text-decoration: none; }
 
-/* Figure caption */
-.figure-caption {
-  font-size: 0.85rem;
-  color: #666;
-  text-align: center;
-  margin: 0.3rem 0 1.5rem;
-}
+/* Figures and captions */
+.figure-caption { font-size: 0.85rem; color: var(--grey-11); margin: 0.3rem 0 1.5rem; }
 
-/* Footer / EU funding statement */
-.site-footer {
-  border-top: 1px solid #e2e2e2;
-  padding: 1.5rem 0 2.5rem;
-  font-size: 0.85rem;
-  color: #666;
+/* ---------- Footer ---------- */
+.site-footer { border-top: 2px solid var(--black); font-size: 0.85rem; color: var(--grey-11); }
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gutter);
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
 }
-.site-footer .funding { display: flex; gap: 0.75rem; align-items: flex-start; }
-.site-footer .eu-flag { height: 40px; width: auto; flex: 0 0 auto; }
+.footer-logo img { height: 34px; width: auto; display: block; }
+.footer-text { grid-column: 2 / -1; }
+.footer-text p { margin: 0 0 0.75rem; }
+.site-footer .funding { display: flex; gap: 0.9rem; align-items: flex-start; }
+.site-footer .funding strong { color: var(--ink); }
+.site-footer .eu-flag { height: 38px; width: auto; flex: 0 0 auto; }
+.site-footer a { color: var(--grey-11); }
+
+/* ---------- Small screens: one column ---------- */
+@media (max-width: 800px) {
+  .wrap { padding: 0 1.1rem; }
+  .hero-grid, .page-head, .content, .footer-grid { grid-template-columns: minmax(0, 1fr); }
+  .hero-logo, .hero-text, .page-head .eyebrow, .page-head h1, .content > *, .content > h2, .footer-text { grid-column: 1; }
+  .hero-grid { padding-top: 2rem; padding-bottom: 2rem; }
+  .hero-logo { max-width: 16rem; }
+  .hero-title { font-size: 1.5rem; }
+  .page-head h1 { font-size: 1.8rem; margin-top: 0.4rem; }
+  .content > h2 + * { margin-top: 0.4rem; padding-top: 0; border-top: 0; }
+  .content > h2 + p, .content > h2 + ul, .content > h2 + ol { margin-top: 0.4rem; }
+  .figures { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .figures div:nth-child(3) { border-left: 0; padding-left: 0; }
+  .content > table { display: block; overflow-x: auto; }
+}

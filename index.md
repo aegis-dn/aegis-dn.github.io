@@ -31,13 +31,13 @@ The same datacenters could help the grid instead. AEGIS builds software-defined 
 
 A Marie Skłodowska-Curie PhD is one of Europe's most respected and best-paid doctoral positions. You get a full salary with allowances, a PhD from a top university, two secondments across industry and academia, and a network-wide training program. [Why join AEGIS?](/dn-benefits/)
 
-<ul class="facts">
-<li>15 PhD positions</li>
-<li>10 beneficiaries, 8 countries</li>
-<li>9 associated partners</li>
-<li>48 months, 2026–2030</li>
-<li>Funded by Horizon Europe (MSCA)</li>
-</ul>
+<div class="figures">
+<div><span class="num">15</span><span class="lab">PhD positions</span></div>
+<div><span class="num">10</span><span class="lab">beneficiaries in 8 countries</span></div>
+<div><span class="num">9</span><span class="lab">associated partners</span></div>
+<div><span class="num">48</span><span class="lab">months, 2026–2030</span></div>
+</div>
+<p class="figures-note">Funded by Horizon Europe under the Marie Skłodowska-Curie Actions.</p>
 
 <div class="cta-box" markdown="1">
 Ready to look? [Browse the 15 positions →](/positions/){: .cta-link}

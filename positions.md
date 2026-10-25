@@ -38,6 +38,7 @@ You have, or are close to finishing, an **MSc in Computing, Electronics, Energy 
 | DC13 | [Fleet-Level Workload Shaping with Live Grid Signals](/positions/dc13/) | Technical University of Denmark | Denmark | <span class="status-badge status-open">open</span> |
 | DC14 | [Energy-Efficient Full-Stack Development Toolchain for Energy-Aware AI Apps](/positions/dc14/) | Ericsson (degree: Aalto University) | Finland | <span class="status-badge status-open">open</span> |
 | DC15 | [Responsive Telecom Edge Sites Aggregated as Virtual Power Plants](/positions/dc15/) | TDC NET (degree: Technical University of Denmark) | Denmark | <span class="status-badge status-open">open</span> |
+{: .dc-table}
 
 You may apply to **more than one** position — just tell us your order of preference in your motivation letter. See [how to apply](/how-to-apply/).
 

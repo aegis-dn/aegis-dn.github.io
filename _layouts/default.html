@@ -9,35 +9,72 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="icon" href="/assets/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/ClearSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body>
+{%- assign is_home = false -%}
+{%- if page.url == "/" -%}{%- assign is_home = true -%}{%- endif -%}
+{%- if page.url contains "/positions/" and page.url != "/positions/" -%}
+  {%- assign eyebrow = "Open position" -%}
+{%- elsif page.url contains "/partners/" and page.url != "/partners/" -%}
+  {%- assign eyebrow = "Partner" -%}
+{%- else -%}
+  {%- assign eyebrow = "AEGIS Doctoral Network" -%}
+{%- endif -%}
+<body{% if is_home %} class="home"{% endif %}>
   <header class="site-header">
-    <a href="/" class="logo"><img src="/assets/aegis-logo.png" alt="AEGIS"></a>
-    <nav class="site-nav">
-      <a href="/">Home</a> ·
-      <a href="/about/">About</a> ·
-      <a href="/research/">Research</a> ·
-      <a href="/partners/">Partners</a> ·
-      <a href="/positions/" class="nav-cta">Positions</a> ·
-      <a href="/dn-benefits/">Why join?</a> ·
-      <a href="/job-requirements/">Requirements</a> ·
-      <a href="/how-to-apply/">How to apply</a> ·
-      <a href="/news/">News</a>
-    </nav>
+    <div class="wrap header-grid">
+      <a href="/" class="logo"><img src="/assets/aegis-logo.svg" alt="AEGIS"></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/research/">Research</a>
+        <a href="/partners/">Partners</a>
+        <a href="/positions/" class="nav-cta">Positions</a>
+        <a href="/dn-benefits/">Why join?</a>
+        <a href="/job-requirements/">Requirements</a>
+        <a href="/how-to-apply/">How to apply</a>
+        <a href="/news/">News</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="site-main">
-    <h1>{{ page.title }}</h1>
-    {{ content }}
+  {% if is_home %}
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <img class="hero-logo" src="/assets/aegis-logo.svg" alt="AEGIS">
+      <div class="hero-text">
+        <span class="marker"></span>
+        <h1 class="hero-title">Adaptive Grid-Interactive Edge Datacenter Fleets</h1>
+        <p class="hero-sub">A Marie Skłodowska-Curie Doctoral Network · 15 PhD positions · 2026–2030</p>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <main class="site-main wrap">
+    {% unless is_home %}
+    <div class="page-head">
+      <div class="eyebrow"><span class="marker"></span>{{ eyebrow }}</div>
+      <h1>{{ page.title }}</h1>
+    </div>
+    {% endunless %}
+    <div class="content">
+      {{ content }}
+    </div>
   </main>
 
   <footer class="site-footer">
-    <p class="funding">
-      <img src="/assets/eu-flag.jpeg" alt="Funded by the European Union" class="eu-flag">
-      Funded by the European Union under the Marie Skłodowska-Curie Actions, grant agreement No 101311399 (AEGIS). Views and opinions expressed are those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
-    </p>
-    <p>AEGIS — Adaptive Grid-Interactive Edge Datacenter Fleets · 2026–2030 · Coordinator: Prof. Paul Pop, DTU (<a href="mailto:aegis@compute.dtu.dk">aegis@compute.dtu.dk</a>)</p>
+    <div class="wrap footer-grid">
+      <a href="/" class="footer-logo"><img src="/assets/aegis-logo.svg" alt="AEGIS"></a>
+      <div class="footer-text">
+        <p class="funding">
+          <img src="/assets/eu-emblem.svg" alt="European Union emblem" class="eu-flag">
+          <span><strong>Funded by the European Union</strong> under the Marie Skłodowska-Curie Actions, grant agreement No 101311399 (AEGIS). Views and opinions expressed are those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</span>
+        </p>
+        <p>AEGIS — Adaptive Grid-Interactive Edge Datacenter Fleets · 2026–2030 · Coordinator: Prof. Paul Pop, DTU (<a href="mailto:aegis@compute.dtu.dk">aegis@compute.dtu.dk</a>)</p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

@@ -91,6 +91,13 @@ positions/               # one Markdown page per Doctoral Candidate position
 - **Partner details or researchers:** edit the relevant `partners/<partner>.md` page.
 - **ORCID links:** keep using the green `assets/orcid.svg` icon style already present in the pages.
 - **Layout or visual styling:** edit `_layouts/default.html` or `assets/css/style.css`.
+- **Visual identity (October 2026):** the site follows the AEGIS slide template.
+  - Grid: a four-column grid where `##` headings sit in a narrow label column with a black rule above, and text sits in the three columns to the right.
+  - Yellow: the home cover band and calls to action (`cta-box`).
+  - Colour coding: the positions table (`{: .dc-table}`) uses the proposal palette (WP1 red, WP2 green, WP3 blue).
+  - Font: Clear Sans, self-hosted in `assets/fonts/` (Apache 2.0).
+  - Logos: `assets/aegis-logo.svg`; partner logos in `assets/logos/*.svg` are single-colour grey.
+  - Source files and the style guide are in the AEGIS project folder, `02-Project-Execution/Communication/2026-10-23--visual-identity/`.
 
 ## Contributions
 
