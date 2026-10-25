@@ -125,8 +125,6 @@ h3 { font-size: 1.1rem; margin: 1.6rem 0 0.4rem; }
 }
 .content > * { grid-column: 2 / -1; max-width: var(--measure); }
 .content > table,
-.content > .cta-box,
-.content > .figures,
 .content > .table-wrap,
 .content > p:has(> img) { max-width: none; }
 
@@ -233,6 +231,7 @@ th { font-weight: 500; color: var(--grey-11); border-bottom: 2px solid var(--bla
   .hero-grid, .page-head, .content, .footer-grid { grid-template-columns: minmax(0, 1fr); }
   .hero-logo, .hero-text, .page-head .eyebrow, .page-head h1, .content > *, .content > h2, .footer-text { grid-column: 1; }
   .hero-grid { padding-top: 2rem; padding-bottom: 2rem; }
+  .home .site-header .logo { display: none; }
   .hero-logo { max-width: 16rem; }
   .hero-title { font-size: 1.5rem; }
   .page-head h1 { font-size: 1.8rem; margin-top: 0.4rem; }
