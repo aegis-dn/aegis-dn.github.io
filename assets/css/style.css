@@ -197,7 +197,7 @@ th { font-weight: 500; color: var(--grey-11); border-bottom: 2px solid var(--bla
 .logo-grid { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem 2rem; margin: 1.25rem 0 2rem; }
 .logo-grid a { display: inline-flex; align-items: center; }
 .logo-grid img { height: 48px; width: auto; }
-.ben-logo { max-height: 40px; max-width: 120px; width: auto; display: block; }
+.ben-logo { max-height: 48px; max-width: 120px; width: auto; display: block; }
 .ben-table td:nth-child(1), .ben-table th:nth-child(1) { width: 8rem; }
 .ben-table td:nth-child(2), .ben-table th:nth-child(2) { width: 14rem; }
 
